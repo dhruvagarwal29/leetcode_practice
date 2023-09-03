@@ -36,8 +36,7 @@ class Solution:
         and that is if flowerbed[i] ==0, these are the conditions we are using here, 
 
         now the edge cases if flowerbed is of only length 1, 
-        then if flowerbed[0] == 0 then it is true, if 
-        not and n==0 then true if not then False. 
+        then if flowerbed[0] == 0 then it is true, if not and n==0 then true if not then False. 
         """
         if len(flowerbed) == 1:
             if flowerbed[0] == 0:
