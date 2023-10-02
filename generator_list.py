@@ -10,3 +10,6 @@ gen = my_generator()
 
 for value in gen:
     print(value)
+
+for i in range(0,100000):
+    print(i)

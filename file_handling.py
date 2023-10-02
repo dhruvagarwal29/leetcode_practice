@@ -1,5 +1,5 @@
-# with open('filename.txt', 'r') as file:
-#     data = file.read()
+with open('filename.txt', 'r') as file:
+    data = file.read()
 
 
 class ContextManager:
